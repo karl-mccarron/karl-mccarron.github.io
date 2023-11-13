@@ -1,8 +1,8 @@
 {
-  "name": "my-gatsby-site",
+  "name": "karl-s-website",
   "version": "1.0.0",
   "private": true,
-  "description": "my-gatsby-site",
+  "description": "karl-s-website",
   "author": "Karl Mc Carron",
   "keywords": [
     "gatsby"
@@ -17,7 +17,6 @@
   "dependencies": {
     "@mdx-js/react": "^3.0.0",
     "gatsby": "^5.12.4",
-    "gatsby-plugin-google-gtag": "^5.12.3",
     "gatsby-plugin-image": "^3.12.3",
     "gatsby-plugin-manifest": "^5.12.3",
     "gatsby-plugin-mdx": "^5.12.3",
