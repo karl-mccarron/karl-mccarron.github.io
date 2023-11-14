@@ -7,6 +7,11 @@ import Search from '@/components/Search'
 import TagIcon from './icons/TagIcon.astro'
 import ToggleTheme from './ToggleTheme.astro'
 
+const link_pad = 6
+const left_link_class = `text-lg mr-${link_pad}`
+const mid_link_class = `text-lg ml-${link_pad} mr-${link_pad}`
+const right_link_class = `text-lg ml-${link_pad} mr-auto`
+
 // ADD YOUR SOCIAL NETWORKS HERE
 const SOCIALNETWORKS = [
 	{
@@ -23,7 +28,9 @@ const SOCIALNETWORKS = [
 ---
 
 <header class='relative flex items-center h-12 font-semibold'>
-	<a class='text-lg mr-auto' href='/'>Home</a>
+	<a class={left_link_class} href='/'>Home</a>
+	<a class={mid_link_class} href='/about'>About</a>
+	<a class={right_link_class} href='/posts'>Posts</a>
 
 	<div
 		id='astro-header-drawer'
